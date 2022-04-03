@@ -365,7 +365,6 @@ svg {
   text-transform: uppercase;
   
   color: var(--back-color);
-  box-sizing: border-box;
   width: 370px;
   height: 70px;
   display: flex;
@@ -816,4 +815,9 @@ svg {
   right: 8px;
   border-radius: 50%;
   cursor: pointer;
+}
+
+.modal-icon {
+  width: 30px;
+  height: 30px;
 }
