@@ -131,7 +131,7 @@ svg {
 
 .current {
   color: var(--active-color);
-}
+  }
 
 .current::after {
   position: absolute;
@@ -590,8 +590,8 @@ svg {
   margin-bottom: 0px;
 }
 
-.projects-item:hover .projects-description,
-.projects-item:focus .projects-description {
+.projects-link:hover .projects-description,
+.projects-link:focus .projects-description {
   transform: translateY(0);
 }
 
@@ -813,11 +813,17 @@ svg {
   position: absolute;
   top: 8px;
   right: 8px;
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
+  padding: 0;
+  margin: 0;
   cursor: pointer;
 }
 
 .modal-icon {
-  width: 30px;
-  height: 30px;
+  width: 15px;
+  height: 15px;
 }
