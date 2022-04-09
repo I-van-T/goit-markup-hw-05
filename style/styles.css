@@ -144,7 +144,7 @@ svg {
   border-radius: 2px;
 }
 
-.nav-link:hover::after,
+/* .nav-link:hover::after,
 .nav-link:focus::after {
   position: absolute;
   bottom: -1px;
@@ -155,7 +155,7 @@ svg {
   height: 4px;
   background-color: var(--active-color);
   border-radius: 2px;
-}
+} */
 
 .contact-list {
   display: flex;
